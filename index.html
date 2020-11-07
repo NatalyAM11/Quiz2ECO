@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Quiz2 ECO</title>
+<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <h2 id="title">Global Solution SAS</h2>
+<div id="input">
+  
+    <input id="descripcion" placeholder="Descripcion de la tarea" type="text" class="barra">
+    <button id="bTarea" class="button">Nueva Tarea</button>
+
+</div>
+
+
+    <ul class="cuadro">
+        <li id="todo">TO DO</li>
+        <li id="doing">DOING</li>
+        <li id="done">DONE</li>
+    </ul>
+
+<div id='todasLasListas'>
+
+ <div id="tareasToDoCont">
+
+  </div>
+
+
+<div id="tareasDoingCont">
+
+</div>
+
+<div id="tareasDoneCont">
+
+</div>
+</div>
+
+</body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyC3WTInJ3r_vUXWlyJSLCNSCaeLE6I_K-E",
+      authDomain: "quiz2eco.firebaseapp.com",
+      databaseURL: "https://quiz2eco.firebaseio.com",
+      projectId: "quiz2eco",
+      storageBucket: "quiz2eco.appspot.com",
+      messagingSenderId: "955985353510",
+      appId: "1:955985353510:web:d5a6f56101d0900ac63fe7",
+      measurementId: "G-51FMLNDTNC"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+<script src="components/ListaTareas.js"></script>
+  <script src="js/index.js"></script>

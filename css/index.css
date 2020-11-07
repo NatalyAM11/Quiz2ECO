@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(232, 236, 252);
+   
+    width: 100%;
+    font-family: Arial;
+    }
+
+#title{
+     background-color: rgb(218, 218, 255);
+     padding: 30px;
+     text-align: center;
+    color: rgb(51, 51, 77);
+     justify-content: center;
+    }    
+
+#input{
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 25px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(147, 164, 241);
+    
+}
+
+#input *{
+    margin:5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.barra{
+    width: 60%;
+}
+
+
+.button{
+    color: white;
+    background-color: rgb(81, 107, 221);
+
+}
+
+.cuadro{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+li{
+    color: white;
+    margin-right: 140px;
+    margin-left: 55px;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding: 3% 7%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.listaTarea{
+   
+    width: 200px;
+    margin: 30px 90px;
+    padding: 35px 30px;
+    border-radius: 10px;  
+    justify-content: center;
+    background-color: rgb(196, 196, 221);
+}
+
+.listaTarea *{
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.styleDeleteB{
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(245, 82, 90);  
+}
+
+.styleAvanceB{
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(68, 183, 236);  
+}
+
+.styleAtrasB{
+
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(236, 225, 63);  
+}
+
+#tareasDoingCont{
+    width: 440px;
+    justify-content: center;
+    background-color: rgb(147, 164, 241);
+    position: relative;
+    
+}
+
+#tareasToDoCont{
+    width: 440px;
+    background-color: rgb(250, 173, 202);
+}
+
+#tareasDoneCont{
+    width: 440px;
+    justify-content: center;
+    background-color: rgb(72, 229, 240);
+}
+
+#todasLasListas{
+    display: inline-flex;
+}
+
+.date{
+    color: rgb(116, 116, 117);
+    font-size: smaller;
+}
+
+#todo{
+    background-color: rgb(231, 81, 139);
+}
+
+#doing{
+    background-color: rgb(81, 107, 221);
+}
+
+#done{
+    background-color: rgb(43, 179, 189);
+}
+
+
